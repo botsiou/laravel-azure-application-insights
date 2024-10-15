@@ -1,5 +1,5 @@
 {
-  "name": "mondago/laravel-application-insights",
+  "name": "yesdevs/laravel-application-insights",
   "description": "A Laravel 8 package to send application insights to Microsoft Application Insights",
   "keywords": [
     "Mondago",
@@ -18,14 +18,14 @@
   ],
   "require": {
     "php": "^8.1.0",
-    "laravel/framework": "^10.0",
+    "laravel/framework": "11.27.2",
     "mondago/application-insights": "^0.5.1",
     "monolog/monolog": "^3.0"
   },
   "require-dev": {
-    "orchestra/testbench": "^8.0",
-    "phpunit/phpunit": "^9.5.10",
-    "nunomaduro/collision": "^6.0"
+    "nunomaduro/collision": "8.4.0",
+    "phpunit/phpunit": "11.4.1",
+    "orchestra/testbench": "9.5.2"
   },
   "repositories": [
     {
