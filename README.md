@@ -77,7 +77,4 @@ Since 0.6.2 this includes when no migrations were ran. This is great for contain
 
 | Our Version | Laravel Version |
 |-------------|-----------------|
-| ^0.7.0      | ^10.0           |
-| ^0.6.0      | ^9.0            |
-| ^0.4.0      | ^8.0            |
-| ^0.3.0      | ^7.0            |
+| ^0.1.0      | ^11.0           |
