@@ -1,6 +1,6 @@
 <?php
 
-namespace Mondago\ApplicationInsights;
+namespace Yesdevs\ApplicationInsights;
 
 use Illuminate\Database\Events\MigrationEnded;
 use Illuminate\Database\Events\MigrationsEnded;
@@ -8,8 +8,8 @@ use Illuminate\Database\Events\MigrationsStarted;
 use Illuminate\Database\Events\MigrationStarted;
 use Illuminate\Database\Events\NoPendingMigrations;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Mondago\ApplicationInsights\Listeners\LogMigration;
-use Mondago\ApplicationInsights\Listeners\NoPendingMigrations as NoPendingMigrationsListener;
+use Yesdevs\ApplicationInsights\Listeners\LogMigration;
+use Yesdevs\ApplicationInsights\Listeners\NoPendingMigrations as NoPendingMigrationsListener;
 
 class EventServiceProvider extends ServiceProvider
 {

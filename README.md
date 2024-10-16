@@ -12,7 +12,7 @@ Add the following to your _composer.json_ file:
     },
     {
         "type": "git",
-        "url": "https://github.com/mondago/laravel-azure-application-insights"
+        "url": "https://github.com/yesdevs/laravel-azure-application-insights"
     }
 ],
 ```
@@ -20,18 +20,18 @@ Add the following to your _composer.json_ file:
 and require it by adding the following line to your _composer.json_ file under "require":
 
 ```
-"mondago/laravel-application-insights": "^0.6.0"
+"yesdevs/laravel-application-insights": "^1.0.0"
 ```
 
 Optionally, you can publish the config file of this package with this command:
 
 ```bash
-php artisan vendor:publish --provider="Mondago\ApplicationInsights\ServiceProvider"
+php artisan vendor:publish --provider="Yesdevs\ApplicationInsights\ServiceProvider"
 ```
 
 ## Middleware
 
-As a convenience you may choose to use the `Mondago\ApplicationInsights\Middleware\TrackRequest` middleware which will send the request and response to Application Insights.
+As a convenience you may choose to use the `Yesdevs\ApplicationInsights\Middleware\TrackRequest` middleware which will send the request and response to Application Insights.
 The middleware utilizes [terminable middleware](https://laravel.com/docs/8.x/middleware#terminable-middleware) from Laravel to ensure that tracking the request doesn't block the response being sent.
 
 Since 0.6.2, if the request has a session started, this middleware will set the session id as the anonymous user id to allow tracking of user flows.
@@ -51,7 +51,7 @@ To use this, update your `config/logging.php` configuration with the following:
     // other channels...
     'app-insights' => [
         'driver' => 'custom',
-        'via' => Mondago\ApplicationInsights\Logging\CreateApplicationInsightsLogger::class,
+        'via' => Yesdevs\ApplicationInsights\Logging\CreateApplicationInsightsLogger::class,
     ],
 ]
 ```

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Tests;
+namespace Yesdevs\ApplicationInsights\Tests;
 
-use Mondago\ApplicationInsights\Facade;
-use Mondago\ApplicationInsights\ServiceProvider;
+use Yesdevs\ApplicationInsights\Facade;
+use Yesdevs\ApplicationInsights\ServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase

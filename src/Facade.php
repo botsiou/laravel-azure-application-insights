@@ -1,11 +1,11 @@
 <?php
 
-namespace Mondago\ApplicationInsights;
+namespace Yesdevs\ApplicationInsights;
 
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
 /**
- * @see \Mondago\ApplicationInsights\ApplicationInsights
+ * @see \Yesdevs\ApplicationInsights\ApplicationInsights
  */
 class Facade extends LaravelFacade
 {

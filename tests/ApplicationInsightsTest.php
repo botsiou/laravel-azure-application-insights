@@ -1,13 +1,13 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Tests;
+namespace Yesdevs\ApplicationInsights\Tests;
 
 use ApplicationInsights\Channel\Telemetry_Channel;
 use ApplicationInsights\Telemetry_Client;
 use ApplicationInsights\Telemetry_Context;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Mondago\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
 use Symfony\Component\ErrorHandler\Error\FatalError;
 
 class ApplicationInsightsTest extends TestCase

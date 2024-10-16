@@ -1,6 +1,6 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Tests;
+namespace Yesdevs\ApplicationInsights\Tests;
 
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Database\Connection;
@@ -10,8 +10,8 @@ use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
 use Insights;
-use Mondago\ApplicationInsights\ApplicationInsights;
-use Mondago\ApplicationInsights\ServiceProvider;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ServiceProvider;
 
 class ServiceProviderTest extends TestCase
 {
@@ -27,7 +27,7 @@ class ServiceProviderTest extends TestCase
         $insights = $this->app['insights'];
         $this->assertTrue($insights->isEnabled());
 
-        $this->assertInstanceOf(\Mondago\ApplicationInsights\ApplicationInsights::class, $insights);
+        $this->assertInstanceOf(\Yesdevs\ApplicationInsights\ApplicationInsights::class, $insights);
     }
 
     /**
@@ -42,7 +42,7 @@ class ServiceProviderTest extends TestCase
         $insights = $this->app['insights'];
         $this->assertFalse($insights->isEnabled());
 
-        $this->assertInstanceOf(\Mondago\ApplicationInsights\ApplicationInsights::class, $insights);
+        $this->assertInstanceOf(\Yesdevs\ApplicationInsights\ApplicationInsights::class, $insights);
     }
 
     /**
@@ -54,7 +54,7 @@ class ServiceProviderTest extends TestCase
     {
         $this->app['config']->set(ServiceProvider::DISPLAY_NAME . '.instrumentation_key', 'notarealinstrumentationkey');
 
-        $this->assertInstanceOf(\Mondago\ApplicationInsights\ApplicationInsights::class, $this->app['insights']);
+        $this->assertInstanceOf(\Yesdevs\ApplicationInsights\ApplicationInsights::class, $this->app['insights']);
         $this->assertTrue(Insights::isEnabled());
 
         $this->expectException(ClientException::class);

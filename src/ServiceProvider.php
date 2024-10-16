@@ -1,6 +1,6 @@
 <?php
 
-namespace Mondago\ApplicationInsights;
+namespace Yesdevs\ApplicationInsights;
 
 use ApplicationInsights\Channel\Contracts\Cloud;
 use ApplicationInsights\Telemetry_Client;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Listeners;
+namespace Yesdevs\ApplicationInsights\Listeners;
 
 use Illuminate\Database\Events\MigrationEnded;
 use Illuminate\Database\Events\MigrationsEnded;
 use Illuminate\Database\Events\MigrationsStarted;
 use Illuminate\Database\Events\MigrationStarted;
-use Mondago\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
 use ReflectionClass;
 
 class LogMigration

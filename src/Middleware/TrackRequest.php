@@ -1,10 +1,10 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Middleware;
+namespace Yesdevs\ApplicationInsights\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Mondago\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
 
 class TrackRequest
 {

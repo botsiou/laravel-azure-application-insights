@@ -1,9 +1,9 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Listeners;
+namespace Yesdevs\ApplicationInsights\Listeners;
 
 use Illuminate\Database\Events\NoPendingMigrations as NoPendingMigrationsEvent;
-use Mondago\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
 
 class NoPendingMigrations
 {

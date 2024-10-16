@@ -1,9 +1,9 @@
 <?php
 
-namespace Mondago\ApplicationInsights\Logging;
+namespace Yesdevs\ApplicationInsights\Logging;
 
 use ApplicationInsights\Channel\Contracts\Message_Severity_Level;
-use Mondago\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Level;
 use Monolog\LogRecord;

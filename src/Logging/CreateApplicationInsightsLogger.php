@@ -1,9 +1,9 @@
 <?php
  
-namespace Mondago\ApplicationInsights\Logging;
+namespace Yesdevs\ApplicationInsights\Logging;
 
-use Mondago\ApplicationInsights\ApplicationInsights;
-use Mondago\ApplicationInsights\Logging\ApplicationInsightsHandler;
+use Yesdevs\ApplicationInsights\ApplicationInsights;
+use Yesdevs\ApplicationInsights\Logging\ApplicationInsightsHandler;
 use Monolog\Level;
 use Monolog\Logger;
 

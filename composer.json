@@ -1,15 +1,15 @@
 {
   "name": "yesdevs/laravel-application-insights",
   "description": "A Laravel 11 package to send application insights to Microsoft Application Insights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
-    "Mondago",
+    "Yesdevs",
     "insights",
     "analytics",
     "monitoring",
     "laravel"
   ],
-  "homepage": "https://github.com/Mondago/laravel-application-insights",
+  "homepage": "https://github.com/Yesdevs/laravel-application-insights",
   "license": "MIT",
   "authors": [
     {
@@ -36,22 +36,22 @@
   ],
   "autoload": {
     "psr-4": {
-      "Mondago\\ApplicationInsights\\": "src"
+      "Yesdevs\\ApplicationInsights\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Mondago\\ApplicationInsights\\ServiceProvider"
+        "Yesdevs\\ApplicationInsights\\ServiceProvider"
       ],
       "aliases": {
-        "Insights": "Mondago\\ApplicationInsights\\Facade"
+        "Insights": "Yesdevs\\ApplicationInsights\\Facade"
       }
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mondago\\ApplicationInsights\\Tests\\": "tests"
+      "Yesdevs\\ApplicationInsights\\Tests\\": "tests"
     }
   },
   "config": {
