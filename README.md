@@ -12,7 +12,7 @@ Add the following to your _composer.json_ file:
     },
     {
         "type": "git",
-        "url": "https://github.com/yesdevs/laravel-azure-application-insights"
+        "url": "https://github.com/botsiou/laravel-azure-application-insights"
     }
 ],
 ```
@@ -20,7 +20,7 @@ Add the following to your _composer.json_ file:
 and require it by adding the following line to your _composer.json_ file under "require":
 
 ```
-"yesdevs/laravel-application-insights": "^1.0.0"
+"botsiou/laravel-application-insights": "^1.0.0"
 ```
 
 Optionally, you can publish the config file of this package with this command:

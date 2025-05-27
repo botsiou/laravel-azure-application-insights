@@ -1,5 +1,5 @@
 {
-  "name": "yesdevs/laravel-application-insights",
+  "name": "botsiou/laravel-application-insights",
   "description": "A Laravel 11 package to send application insights to Microsoft Application Insights",
   "version": "1.0.3",
   "keywords": [
@@ -31,7 +31,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/mondago/ApplicationInsights-PHP"
+      "url": "https://github.com/botsiou/ApplicationInsights-PHP"
     }
   ],
   "autoload": {
