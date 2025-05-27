@@ -8,7 +8,7 @@ Add the following to your _composer.json_ file:
 "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/mondago/ApplicationInsights-PHP"
+      "url": "https://github.com/botsiou/ApplicationInsights-PHP"
     },
     {
         "type": "git",
